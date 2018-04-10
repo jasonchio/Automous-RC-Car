@@ -1,0 +1,8 @@
+<launch>
+
+        <node name="raw_sonar" pkg="auto" type="raw_sonar.py" />
+        <!--node name="sonar_handler" pkg="auto" type="sonar_handler.py" output="screen" /-->
+        <node name="camera" pkg="auto" type="camera.py" output="screen"/>
+		<!-- <node name="lineFollow" pkg="auto" type="line.py" output="screen"/-->
+	
+</launch>         
